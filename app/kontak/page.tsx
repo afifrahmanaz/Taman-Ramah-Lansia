@@ -171,7 +171,7 @@ export default function KontakPage() {
       {/* Map */}
       <section className="relative h-[400px] bg-gray-100 group">
         <iframe
-          src="https://maps.google.com/maps?q=Taman+Ramah+Lansia+Rumbia+504+Pangkalpinang&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=Jl.+Rumbia+No.504,+Bukit+Merapin,+Gerunggang,+Pangkal+Pinang&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}
