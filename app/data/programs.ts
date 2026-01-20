@@ -136,7 +136,7 @@ export const programSeminar = [
         title: "Seminar Ide Bisnis di Masa Tua",
         category: "Edukasi & Seminar",
         icon: "FaLightbulb",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?w=800&h=600&fit=crop",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop",
         description: "Inspirasi dan panduan memulai usaha kecil-kecilan di usia lanjut",
         materi: [
             "Peluang Bisnis Realistis untuk Lansia",
