@@ -19,14 +19,14 @@ export default function DonasiPage() {
             title: "Pengadaan Alat Kesehatan",
             description: "Pembelian tensi meter dan alat cek gula darah baru",
             target: 5000000,
-            current: 3500000,
+            current: 0,
             status: "Aktif",
         },
         {
             title: "Dana Operasional Bulanan",
             description: "Biaya operasional kegiatan rutin bulanan",
             target: 2000000,
-            current: 1800000,
+            current: 0,
             status: "Aktif",
         },
     ];
@@ -112,9 +112,9 @@ export default function DonasiPage() {
                             <div className="bg-gray-50 rounded-lg p-4 mb-4">
                                 <p className="text-sm text-gray-500 mb-1">Bank BRI</p>
                                 <div className="flex items-center justify-between">
-                                    <p className="text-lg font-bold text-gray-800 font-mono">1234567890</p>
+                                    <p className="text-lg font-bold text-gray-800 font-mono">XXXXXXX</p>
                                     <button
-                                        onClick={() => handleCopy("1234567890")}
+                                        onClick={() => handleCopy("XXXXXXX")}
                                         className={`p-2 rounded-lg transition-all ${copied
                                             ? "bg-primary-100 text-primary-600"
                                             : "bg-gray-100 text-gray-600 hover:bg-gray-200"

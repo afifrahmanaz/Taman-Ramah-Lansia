@@ -365,7 +365,7 @@ export default function Home() {
                   S
                 </div>
                 <div>
-                  <h4 className="font-bold text-text-main">Bu Siti</h4>
+                  <h4 className="font-bold text-text-main">Anonym</h4>
                   <p className="text-sm text-text-muted">Peserta, 65 tahun</p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Home() {
                   A
                 </div>
                 <div>
-                  <h4 className="font-bold text-text-main">Pak Ahmad</h4>
+                  <h4 className="font-bold text-text-main">Anonym</h4>
                   <p className="text-sm text-text-muted">Peserta, 68 tahun</p>
                 </div>
               </div>
