@@ -24,9 +24,9 @@ export default function ActivityCard({
     description,
 }: ActivityCardProps) {
     return (
-        <article className="bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-soft transition-all group border border-gray-100">
+        <article className="bg-white rounded-xl lg:rounded-2xl overflow-hidden shadow-card hover:shadow-soft transition-all group border border-gray-100">
             {/* Image */}
-            <div className="relative h-52 overflow-hidden">
+            <div className="relative h-44 lg:h-52 overflow-hidden">
                 <Image
                     src={image}
                     alt={title}
@@ -34,32 +34,32 @@ export default function ActivityCard({
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                <span className="absolute top-4 left-4 px-3 py-1.5 bg-white/90 backdrop-blur-sm text-primary-600 text-xs font-bold rounded-full uppercase tracking-wide">
+                <span className="absolute top-3 left-3 lg:top-4 lg:left-4 px-2.5 py-1 lg:px-3 lg:py-1.5 bg-white/90 backdrop-blur-sm text-primary-600 text-[10px] lg:text-xs font-bold rounded-full uppercase tracking-wide">
                     {category}
                 </span>
             </div>
 
             {/* Content */}
-            <div className="p-5">
+            <div className="p-4 lg:p-5">
                 {/* Meta */}
-                <div className="flex items-center gap-4 mb-3 text-xs text-text-muted">
+                <div className="flex items-center gap-3 lg:gap-4 mb-2 lg:mb-3 text-[10px] lg:text-xs text-text-muted">
                     <span className="flex items-center gap-1.5">
-                        <FaCalendarAlt size={12} className="text-primary-400" />
+                        <FaCalendarAlt className="text-primary-400 w-3 h-3" />
                         {date}
                     </span>
                     <span className="flex items-center gap-1.5">
-                        <FaUsers size={12} className="text-primary-400" />
+                        <FaUsers className="text-primary-400 w-3 h-3" />
                         {participants} peserta
                     </span>
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-bold text-text-main mb-2 line-clamp-2 group-hover:text-primary-500 transition-colors">
+                <h3 className="text-base lg:text-lg font-bold text-text-main mb-1.5 lg:mb-2 line-clamp-2 group-hover:text-primary-500 transition-colors leading-tight">
                     {title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-sm text-text-muted mb-4 line-clamp-2">
+                <p className="text-xs lg:text-sm text-text-muted mb-3 lg:mb-4 line-clamp-2">
                     {description}
                 </p>
 

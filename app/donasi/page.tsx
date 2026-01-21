@@ -47,13 +47,13 @@ export default function DonasiPage() {
                 </div>
 
                 <div className="container-custom relative z-10 text-center">
-                    <p className="text-primary-300 text-sm font-medium uppercase tracking-widest mb-4">
+                    <p className="!text-white/90 text-sm font-medium uppercase tracking-widest mb-6 md:mb-8">
                         Dukung Program Kami
                     </p>
-                    <h1 className="text-3xl md:text-4xl font-bold !text-white mb-4 drop-shadow-md relative z-20">
+                    <h1 className="text-3xl md:text-4xl font-bold !text-white mb-6 md:mb-8 drop-shadow-md relative z-20">
                         Campaign &amp; Donasi
                     </h1>
-                    <p className="text-white max-w-xl mx-auto">
+                    <p className="text-white max-w-xl mx-auto mb-4">
                         Setiap donasi Anda membantu meningkatkan kualitas pelayanan untuk para lansia
                     </p>
                 </div>
@@ -162,18 +162,18 @@ export default function DonasiPage() {
                         </p>
                         <h2 className="text-2xl font-bold text-gray-800 mb-8">Alokasi Dana Donasi</h2>
 
-                        <div className="grid grid-cols-3 gap-4">
-                            <div className="bg-primary-500 text-white rounded-xl p-5 text-center">
-                                <p className="text-3xl font-bold mb-1">60%</p>
-                                <p className="text-primary-100 text-sm">Kesehatan</p>
+                        <div className="grid grid-cols-3 gap-3 md:gap-4">
+                            <div className="bg-primary-500 text-white rounded-lg md:rounded-xl p-3 md:p-5 text-center">
+                                <p className="text-xl md:text-3xl font-bold mb-0.5 md:mb-1">60%</p>
+                                <p className="text-primary-100 text-xs md:text-sm">Kesehatan</p>
                             </div>
-                            <div className="bg-primary-600 text-white rounded-xl p-5 text-center">
-                                <p className="text-3xl font-bold mb-1">25%</p>
-                                <p className="text-primary-100 text-sm">Edukasi</p>
+                            <div className="bg-primary-600 text-white rounded-lg md:rounded-xl p-3 md:p-5 text-center">
+                                <p className="text-xl md:text-3xl font-bold mb-0.5 md:mb-1">25%</p>
+                                <p className="text-primary-100 text-xs md:text-sm">Edukasi</p>
                             </div>
-                            <div className="bg-gray-700 text-white rounded-xl p-5 text-center">
-                                <p className="text-3xl font-bold mb-1">15%</p>
-                                <p className="text-gray-400 text-sm">Sosial</p>
+                            <div className="bg-gray-700 text-white rounded-lg md:rounded-xl p-3 md:p-5 text-center">
+                                <p className="text-xl md:text-3xl font-bold mb-0.5 md:mb-1">15%</p>
+                                <p className="text-gray-400 text-xs md:text-sm">Sosial</p>
                             </div>
                         </div>
                     </div>

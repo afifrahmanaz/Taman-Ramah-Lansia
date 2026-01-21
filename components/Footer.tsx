@@ -30,7 +30,7 @@ export default function Footer() {
                         <div className="flex items-center gap-3">
                             <FaHeart size={24} className="text-white" />
                             <div>
-                                <h3 className="text-lg font-bold">Dukung Program Kami</h3>
+                                <h3 className="text-lg font-bold !text-white">Dukung Program Kami</h3>
                                 <p className="text-primary-100 text-sm">Setiap donasi membantu lansia mendapat pelayanan terbaik</p>
                             </div>
                         </div>

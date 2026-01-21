@@ -22,7 +22,7 @@ export default function KontakPage() {
   return (
     <div>
       {/* Hero Header */}
-      <section className="relative h-[300px] md:h-[350px] flex items-center overflow-hidden">
+      <section className="relative h-[250px] md:h-[350px] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&h=600&fit=crop"
@@ -35,13 +35,13 @@ export default function KontakPage() {
         </div>
 
         <div className="container-custom relative z-10 text-center">
-          <p className="text-primary-300 text-sm font-medium uppercase tracking-widest mb-4">
+          <p className="text-primary-300 text-xs md:text-sm font-medium uppercase tracking-widest mb-3 md:mb-4">
             Layanan Masyarakat
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold !text-white mb-4 drop-shadow-md relative z-20">
+          <h1 className="text-2xl md:text-4xl font-bold !text-white mb-3 md:mb-4 drop-shadow-md relative z-20">
             Hubungi Kami
           </h1>
-          <p className="text-white max-w-xl mx-auto">
+          <p className="text-white text-sm md:text-base max-w-xl mx-auto px-4">
             Kami siap menyambut Anda untuk informasi kegiatan, pendaftaran, atau donasi.
           </p>
         </div>
@@ -50,13 +50,13 @@ export default function KontakPage() {
       {/* Contact Info & Form */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
             {/* Contact Information */}
             <div>
-              <p className="text-primary-600 text-sm font-medium uppercase tracking-widest mb-2">
+              <p className="text-primary-600 text-xs md:text-sm font-medium uppercase tracking-widest mb-2">
                 Informasi Kontak
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-8">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-6 md:mb-8">
                 Terhubung Dengan Kami
               </h2>
 

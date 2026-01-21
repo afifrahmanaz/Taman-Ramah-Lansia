@@ -113,8 +113,8 @@ h6 {
 
 /* Section Spacing */
 .section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
