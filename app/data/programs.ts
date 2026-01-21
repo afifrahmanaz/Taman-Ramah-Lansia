@@ -33,18 +33,18 @@ export const programLayanan = [
     },
     {
         id: 3,
-        title: "Kajian Agama Islam",
-        category: "Keagamaan",
-        icon: "FaBook",
-        description: "Kajian rutin tentang Islam dan kehidupan sehari-hari",
+        title: "Senam Lansia",
+        category: "Kesehatan",
+        icon: "FaSeedling",
+        description: "Kegiatan senam bersama untuk menjaga kebugaran fisik dan mental lansia",
         details: [
-            "Pembahasan Al-Quran dan Hadits",
-            "Adab dalam kehidupan sehari-hari",
-            "Tanya jawab dengan ustadz/ustadzah",
-            "Diskusi kelompok kecil"
+            "Gerakan senam ringan dan aman",
+            "Instruktur senam berpengalaman",
+            "Meningkatkan kelenturan tubuh",
+            "Relaksasi dan pendinginan"
         ],
-        jadwal: "3 bulan sekali (sesuai ketentuan)",
-        persyaratan: "Terbuka untuk semua peserta program"
+        jadwal: "1x setiap bulan (Jam 07.00 WIB)",
+        persyaratan: "Warga RT.03 Bukit Merapin berusia 60 tahun ke atas"
     }
 ];
 

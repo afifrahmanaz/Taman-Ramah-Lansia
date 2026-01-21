@@ -42,13 +42,13 @@ export default function ActivityCard({
             {/* Content */}
             <div className="p-4 lg:p-5">
                 {/* Meta */}
-                <div className="flex items-center gap-3 lg:gap-4 mb-2 lg:mb-3 text-[10px] lg:text-xs text-text-muted">
-                    <span className="flex items-center gap-1.5">
-                        <FaCalendarAlt className="text-primary-400 w-3 h-3" />
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-2 lg:mb-3 text-[10px] lg:text-xs text-text-muted">
+                    <span className="flex items-center gap-1.5 whitespace-nowrap">
+                        <FaCalendarAlt className="text-primary-400 w-3 h-3 flex-shrink-0" />
                         {date}
                     </span>
-                    <span className="flex items-center gap-1.5">
-                        <FaUsers className="text-primary-400 w-3 h-3" />
+                    <span className="flex items-center gap-1.5 whitespace-nowrap">
+                        <FaUsers className="text-primary-400 w-3 h-3 flex-shrink-0" />
                         {participants} peserta
                     </span>
                 </div>
