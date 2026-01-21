@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { FaWhatsapp, FaHandHoldingHeart } from "react-icons/fa";
+import { FaHandHoldingHeart } from "react-icons/fa";
 
 export default function DonationCTA() {
     const whatsappNumber = "6281366018880";
@@ -37,9 +37,8 @@ export default function DonationCTA() {
                         href={whatsappUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center gap-2 px-5 py-2.5 md:px-6 md:py-3 bg-[#25D366] text-white font-semibold rounded-lg hover:bg-[#1da851] transition-all shadow-md w-full md:min-w-[160px] text-sm md:text-base whitespace-nowrap"
+                        className="inline-flex items-center justify-center px-5 py-2.5 md:px-6 md:py-3 bg-[#25D366] text-white font-semibold rounded-lg hover:bg-[#1da851] transition-all shadow-md w-full md:min-w-[160px] text-sm md:text-base whitespace-nowrap"
                     >
-                        <FaWhatsapp size={20} />
                         Hubungi Kami
                     </a>
                 </div>
