@@ -13,7 +13,7 @@ export const programLayanan = [
             "Timbang Berat Badan",
             "Konsultasi dengan petugas kesehatan"
         ],
-        jadwal: "Setiap Kamis Minggu Pertama Bulan (08.00 - 10.00 WIB)",
+        jadwal: "Setiap Sabtu Bulan Pertama (08.00 - 10.00 WIB)",
         persyaratan: "Warga RT.03 Bukit Merapin berusia 60 tahun ke atas"
     },
     {
@@ -28,7 +28,7 @@ export const programLayanan = [
             "Cek Rambut",
             "Potong Rambut"
         ],
-        jadwal: "Setiap Kamis Minggu Pertama Bulan (08.00 - 10.00 WIB)",
+        jadwal: "Setiap Sabtu Bulan Pertama (08.00 - 10.00 WIB)",
         persyaratan: "Warga RT.03 Bukit Merapin berusia 60 tahun ke atas"
     },
     {
@@ -91,7 +91,7 @@ export const programSeminar = [
     },
     {
         id: 3,
-        title: "Seminar Kesehatan dari Dokter",
+        title: "Seminar Kesehatan",
         category: "Edukasi & Seminar",
         icon: "FaUserMd",
         image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=600&fit=crop",

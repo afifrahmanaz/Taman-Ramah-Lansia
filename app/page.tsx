@@ -165,7 +165,7 @@ export default function Home() {
                 <div className="bg-background-cream rounded-xl p-4 lg:p-5">
                   <FaCalendarAlt className="text-primary-500 mb-2 lg:mb-3" size={20} />
                   <h4 className="font-bold text-text-main mb-1 text-sm lg:text-base">Jadwal Rutin</h4>
-                  <p className="text-xs lg:text-sm text-text-muted">Kamis Minggu Pertama Setiap Bulan</p>
+                  <p className="text-xs lg:text-sm text-text-muted">Sabtu Bulan Pertama Setiap Bulan</p>
                 </div>
                 <div className="bg-background-cream rounded-xl p-4 lg:p-5">
                   <FaHeartbeat className="text-primary-500 mb-2 lg:mb-3" size={20} />
@@ -181,7 +181,7 @@ export default function Home() {
                 <div className="space-y-3 lg:space-y-4 text-sm lg:text-base">
                   <div className="flex justify-between items-center pb-3 lg:pb-4 border-b border-primary-900/20">
                     <span className="text-white/80">Hari</span>
-                    <span className="font-semibold">Kamis (Minggu Pertama)</span>
+                    <span className="font-semibold">Sabtu (Bulan Pertama)</span>
                   </div>
                   <div className="flex justify-between items-center pb-3 lg:pb-4 border-b border-primary-900/20">
                     <span className="text-white/80">Bulan</span>

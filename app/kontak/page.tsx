@@ -97,7 +97,7 @@ export default function KontakPage() {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Jam Operasional</h4>
                     <p className="text-gray-600 text-sm">
-                      Kamis (Minggu Pertama Setiap Bulan)<br />
+                      Sabtu (Bulan Pertama Setiap Bulan)<br />
                       <span className="font-medium text-gray-800">08:00 - 10:00 WIB</span>
                     </p>
                   </div>
